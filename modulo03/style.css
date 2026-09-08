@@ -1,0 +1,15 @@
+/* style.css */
+body {
+  background: #f4f7fb;
+  font-family: Arial;
+}
+.cartao { background: white; }
+#titulo { color: #2563eb; }
+
+.apresentacao {
+  color: #5e0303;
+  background: #d2054d;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
