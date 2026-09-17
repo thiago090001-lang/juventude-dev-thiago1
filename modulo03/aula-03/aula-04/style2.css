@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffc4c4;
+    margin: 1.5rem;
+}
+ .todo {
+max-width: 960px;
+margin: 0 auto;
+ }
+
+ .topo {
+min-height: 20vh;
+margin-bottom: 1rem;
+border-radius: 18px;
+background: linear-gradient(135deg, #2D1B69 #7C3AED);
+Box-shadow: 0 10px 24px rgba(0, 0, 0, .45);
+margin: 0 auto;
+ }
+
+ .medio {
+text-align: center;
+
+ }
+
+ .quadrado1 {
+display: inline-block;
+vertical-align: top;
+width: 22%;
+min-height: 14vh;
+background: #1B1538;
+border-radius: 14px;
+margin: .5% 1%;
+border: 2px solid rgba(255, 255, 255, .12);
+ }
+
+.retangulo-direito {
+background: #ac2ca5;
+width: 130%;
+min-height: 15vh;
+border-radius: 16px;
+border: 2px solid rgba(255, 255, 255, .12);
+height: 10%;
+margin: 3%
+}
+
+.retangulos {
+display: flex;
+align-items: flex-start;
+gap: 1rem;
+}
+
+.retangulo  {
+width: 70%;
+min-height: 30vh;
+background: #1B1538;
+border-radius: 20px;
+border: 2px solid rgba(255, 255, 255, .12);
+}
+
+.retangulos-direitos {
+display: flex;
+flex-direction: column;
+gap: .5rem;
+width: 25%;
+}
