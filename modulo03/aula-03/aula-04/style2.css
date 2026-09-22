@@ -68,3 +68,30 @@ flex-direction: column;
 gap: .5rem;
 width: 25%;
 }
+.menu {
+margin-bottom: 1rem;
+padding: 1rem;
+background: #1B1538;
+}
+
+.menu ul{
+ display: flex;
+ justify-content: center;
+ gap: 2rem;
+ list-style: none;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;}
+
+.menu a:hover {
+    color: #FF3D7F;
+    background: #7d12cf;
+}
+.menu a:active { transform: translateY(1px); }
+.menu a:focus-visible { outline: 2px solid #FFC857;
+outline-offset: 3px; 
+border-radius: 4px; 
+}
