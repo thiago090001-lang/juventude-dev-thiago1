@@ -72,6 +72,7 @@ width: 25%;
 margin-bottom: 1rem;
 padding: 1rem;
 background: #1B1538;
+
 }
 
 .menu ul{
@@ -94,4 +95,22 @@ background: #1B1538;
 .menu a:focus-visible { outline: 2px solid #FFC857;
 outline-offset: 3px; 
 border-radius: 4px; 
+}
+.menu-toggle { position: absolute; opacity: 0;}
+
+.menu-botao {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: .5rem .75rem;
+    color: #570202;
+    background: #1B1538;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size:1.5rem;
+}
+.menu-toggle :checked ~ .menu {
+    display: inline-block; }
+
+@media (max-width: 768px) {
+.menu {display:none; }
 }
